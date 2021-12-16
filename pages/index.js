@@ -1,9 +1,9 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import { Layout } from "../components";
 
 export default function Home() {
 	return (
-		<div className={styles.container}>
+		<div>
 			<Head>
 				<title>Create Next App</title>
 				<meta
@@ -13,7 +13,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<div className="text-4xl">Hello</div>
+			<div className="bg-gray-900 w-full">hekko</div>
 		</div>
 	);
 }
